@@ -1,7 +1,5 @@
 
-*{
-    margin: 0 auto;
-}
+ 
 .main{
     background-color: aqua;
     width: 200%;
@@ -28,11 +26,12 @@
     text-align: center;
     display: inline-block;
     color: aqua;
+    transition: 2s 
 }
 .box h1:hover{
     background-color: aqua;
     color: blue;
-    transition: 1s ;
+    transition: 2s ;
 
 }
 .box img{
@@ -57,5 +56,6 @@
 .box p{
     padding: 10px 10px 20px 20px;
     text-align: justify;
+    color: rgb(175, 222, 255);
     
 }
