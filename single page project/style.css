@@ -23,6 +23,12 @@
     display: inline-block;
     color: aqua;
 }
+.box h2:hover{
+    background-color: aqua;
+    color: blue;
+    transition: 1s ;
+
+}
 .box img{
     width: 90%;
     border-radius: 100px;
@@ -36,6 +42,12 @@
     text-transform: 1s;
     display: inline-block;
 }
+.box a:hover{
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+    transition: 1s ;
+}
+
 .box p{
     padding: 10px 10px 20px 20px;
     text-align: justify;
