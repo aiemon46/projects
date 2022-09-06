@@ -1,20 +1,26 @@
+
+*{
+    margin: 0 auto;
+}
 .main{
     background-color: aqua;
+    width: 200%;
     margin: 0 auto;
     text-align: center;
-    width: 5000px;
+    
+    
      
 }
 .box{
     background-color: rgb(2, 130, 173);
-    margin-left: 20px;
+    margin: 20px;
     width: 400px;
     padding: 10px;
     float: left;
     border-radius: 30px;
     
 }
-.box h2{
+.box h1{
     background-color: rgb(13, 58, 150);
     padding: 10px 0 ;
     border-radius: 20px;
@@ -23,7 +29,7 @@
     display: inline-block;
     color: aqua;
 }
-.box h2:hover{
+.box h1:hover{
     background-color: aqua;
     color: blue;
     transition: 1s ;
