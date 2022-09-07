@@ -1,18 +1,24 @@
-*{
-    margin:0 auto;
-}
+ 
 .bx{
-    width: 500px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
     background-color: rgb(5, 94, 45);
     position:relative
 }
 .jk{
-    width: 180px;
-    height: 180px;
+    width: 130px;
+    height: 130px;
     background-color: rgb(255, 3, 3);
     position:absolute;
     border-radius: 50%;
-    top: 20%;
-    left: 28%;
+    top: 18%;
+    left: 30%;
+}
+.bx::after{
+    content: "";
+    position: absolute;
+    margin-left:-5px;
+    width: 5px;
+    height: 500px;
+    background-color: rgb(6, 40, 40);
 }
