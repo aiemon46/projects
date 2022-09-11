@@ -61,7 +61,16 @@ ul {
       background-color: $black;
     }
   }
-  
+  &.border-btn {
+    border: 2px solid $primary_color;
+    padding: 8px 40px;
+    transition: 0.3s;
+    &:hover {
+      border-color: $black;
+      color: $primary_color;
+    }
+  }
+}
 
 /* Section Title CSS */
 
