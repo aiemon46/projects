@@ -35,7 +35,12 @@ ul {
 }
 
 /* Background CSS */
-
+.bg {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
 .bg:before {
   content: "";
   position: absolute;
