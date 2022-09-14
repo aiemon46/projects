@@ -14,7 +14,7 @@
     top: 18%;
     left: 30%;
 }
-.bx::before{
+.bx::after{
     content: "";
     position: absolute;
     margin-left:-5px;
