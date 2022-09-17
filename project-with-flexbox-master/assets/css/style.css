@@ -82,12 +82,7 @@ img {
   font-size: 28px;
   margin-bottom: 5px;
 }
-.about {
-  display: flex;
-  text-align: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+ 
 .single-about {
   flex-basis: 32%;
   border: 1px solid #ddd;
