@@ -5,7 +5,7 @@
     width: 200px;
     height: 200px;
     background-color: aqua;
-    transition: 2s;
+    transition: 3s;
 }
 
 .box:hover{
