@@ -94,12 +94,8 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.service__single {
-  background-color: teal;
-  padding: 20px;
-  color: #fff;
-  flex-basis: 32%;
-}
+
+
 .service__heading {
   text-align: center;
   text-transform: capitalize;
